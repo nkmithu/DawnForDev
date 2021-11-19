@@ -5,7 +5,9 @@ Hello from section file
 <h2>{{ product.title }}</h2>
 <img src="{{ product.featured_image | img_url: '300x'}}" />
 
-<!-- <h4></h4> -->
+{% if seciton.settings.show_reviews}
+<h4>4 star review </h4>
+{% endif %}
 
 {% schema %}
     {
