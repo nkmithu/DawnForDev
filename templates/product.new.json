@@ -1,12 +1,15 @@
 {
-    "sections": {
-        "main": {
-            "type": "main-test-product",
-            "settings": {
-
-            }
-        }
-    },
-
-    "order": ["main"]
+  "sections": {
+    "main": {
+      "type": "main-test-product",
+      "settings": {
+        "tax": "new tax included",
+        "shipping": "this is for shipping notice",
+        "show_reviews": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
 }
