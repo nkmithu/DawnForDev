@@ -16,16 +16,9 @@
       },
       {
         "type": "color",
-        "id": "SOLID",
+        "id": "colors_solid_button_labels",
         "default": "#FFFFFF",
         "label": "t:settings_schema.colors.settings.colors_solid_button_labels.label",
-        "info": "t:settings_schema.colors.settings.colors_solid_button_labels.info"
-      },
-      {
-        "type": "color",
-        "id": "navbar_color",
-        "default": "#f3f3f3",
-        "label": "Navbar color",
         "info": "t:settings_schema.colors.settings.colors_solid_button_labels.info"
       },
       {
